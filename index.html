@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trajanoski | Automoções e Soluções</title> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+    <h1> Alex Jukoski | Automoções de Processos</h1>
+    <p> Otimize o atendimento e vendas da sua empresa com automoções inteligentes</p>
+    <h2> Solicitar uma consultoria</h2>
+<!-- Formuláro de contato simples -->
+ <form>
+    <label for="nome">Nome do cliente:</label><br>
+    <input type="text" id="nome" name="nome" placeholder="Digite seu nome"><br><br>
+<label for="email"></label>E-mail de contato:</label><br>
+<input type="email" id="email" name="email" placeholder="seuemail@empresa.com" <br> <br>
+<label for="servico">Serviço desejado</label><br>
+<select id="servico" name="servico">
+    <option value="chatbot">Chatbot para WhatsApp</option>
+    <option value="Integração">Integração de Sistemas</option>
+    <option value="site"> Criação de Landing Page</option> <br><br> 
+</select>
+    <button type="submit">Enviar Solicitação</button>
+
+    <div id="mensagem-status" class="status.msg"></div>
+</form>
+<!-- Conectando o arquivo JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
