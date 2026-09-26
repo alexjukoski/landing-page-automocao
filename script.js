@@ -34,7 +34,7 @@ formulario.addEventListener('submit', function(event) {
         cliente: nome,
         emailContato: email,
         servicoDesejado: servico,
-        dataSolicitacao: new Date().toLocaleDateString()
+        dataSolicitacao: new Date().toLocaleDateString('pt-BR', {timeZone: 'America/Sao_Paulo'})
     };
 
     // UI: Estado de carregamento
